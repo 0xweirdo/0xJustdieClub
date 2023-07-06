@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import {ethers} from 'ethers'
+
 import styled from "styled-components";
 
 const Btn = styled.button`
