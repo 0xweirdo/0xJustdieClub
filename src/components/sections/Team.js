@@ -9,6 +9,10 @@ min-height: 100vh;
 width: 100vw;
 background-color: ${props => props.theme.body};
 position: relative;
+
+@media (max-width: 64em) {
+    width: 100%;
+}
 `
 
 const Title = styled.h1`
