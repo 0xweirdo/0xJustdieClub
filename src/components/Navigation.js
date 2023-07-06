@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import styled from 'styled-components'
 import Logo from './Logo'
-import Button from './Button'
+
 import MetaMask from './Metamask'
 
 const Section = styled.section`
