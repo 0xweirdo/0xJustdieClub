@@ -1,6 +1,6 @@
 import React, { useLayoutEffect, useRef } from 'react'
 import styled from 'styled-components'
-import Home from './sections/Home'
+
 import { useWindowScroll } from 'react-use'
 
 
