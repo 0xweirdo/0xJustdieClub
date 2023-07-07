@@ -93,7 +93,7 @@ justify-content: center;
 
 const ItemContainer =styled.div`
 width: 90%;
-height: fit-content;
+height: 100%;
 padding: 1rem;
 
 border-radius: 20px;
@@ -111,6 +111,7 @@ text-align: center;
 
 const Box = styled.p`
 height: fit-content;
+width: 80%;
 background-color: ${props => props.theme.carouselColor};
 color: ${props => props.theme.text};
 padding: 1rem;

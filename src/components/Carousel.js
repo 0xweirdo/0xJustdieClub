@@ -11,12 +11,15 @@ import "swiper/css/navigation";
 
 import { Navigation, Autoplay, EffectCoverflow, Pagination } from 'swiper';
 
-import img1 from '../assets/Nfts/Justdie.jpg'
-import img2 from '../assets/Nfts/Justdie-1.jpg'
-import img3 from '../assets/Nfts/Justdie-2.jpg'
-import img4 from '../assets/Nfts/Justdie-3.jpg'
-import img5 from '../assets/Nfts/Justdie-4.jpg'
-import img7 from '../assets/Nfts/Justdie-6.jpg'
+import img1 from '../assets/Nfts/Justdie_Party.svg'
+import img2 from '../assets/Nfts/Justdie1_Party.svg'
+import img3 from '../assets/Nfts/Justdie2_Party.svg'
+import img4 from '../assets/Nfts/Justdie3_Party.svg'
+import img5 from '../assets/Nfts/Justdie4_Party.svg'
+import img6 from '../assets/Nfts/Justdie5_Party.svg'
+import img7 from '../assets/Nfts/Justdie6_Party.svg'
+import img8 from '../assets/Nfts/Justdie7_Party.svg'
+import img9 from '../assets/Nfts/Justdie8_Party.svg'
 
 import Arrow from '../assets/Arrow.svg';
 
@@ -138,22 +141,31 @@ const Carousel = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src={img1} alt="The weirdos" />
+          <img src={img1} alt="Justdieclub" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={img2} alt="The weirdos" />
+          <img src={img2} alt="Justdieclub" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={img3} alt="The weirdos" />
+          <img src={img3} alt="Justdieclub" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={img4} alt="The weirdos" />
+          <img src={img4} alt="Justdieclub" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={img5} alt="The weirdos" />
+          <img src={img5} alt="Justdieclub" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={img7} alt="The weirdos" />
+          <img src={img6} alt="Justdieclub" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={img7} alt="Justdieclub" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={img8} alt="Justdieclub" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={img9} alt="Justdieclub" />
         </SwiperSlide>
         
       </Swiper>

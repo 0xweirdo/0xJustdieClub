@@ -1,7 +1,8 @@
 import React from 'react'
 import styled from 'styled-components';
 
-import img1 from '../../assets/Nfts/JustdieMain-01.png';
+import img1 from '../../assets/Nfts/Justdie_Party.svg';
+import img2 from '../../assets/Nfts/Justdie3_Party.svg';
 import ConfettiComponent from '../Confetti';
 
 const Section = styled.section`
@@ -26,23 +27,29 @@ align-items: center;
 margin: 1rem auto;
 border-bottom: 2px solid ${(props) => props.theme.text};
 width: fit-content;
+
+@media (max-width: 64em){
+    font-size: ${(props) => props.theme.fontxl};
+}
 `;
 
 const Container = styled.div`
-width: 75%
+width: 100%
 margin: 2rem auto;
 
 display: flex;
-justify-content: space-around;
+justify-content: center;
 align-items: center;
 flex-wrap: wrap;
 
 @media (max-width: 64em) {
-    width: 100%;
+    width: 80%;
+    align-items: center;
 }
 @media (max-width: 48em) {
-    width: 100%;
+    width: 90%;
     justify-content: center;
+    align-items: center;
 }
 
 `
@@ -59,6 +66,16 @@ backdrop-filter: blur(4px);
 
 border-radius: 20px;
 background-image: linear-gradient(to right, rgb(1 134 218), rgb(182 49 167));
+
+&:hover{
+    img{
+        transform: translateY(-2rem) scale(1.1);
+    }
+}
+
+@media (max-width: 64em){
+    width: 70vw;
+}
 `
 
 const ImageContainer = styled.div`
@@ -120,7 +137,8 @@ const Team = () => {
             <ConfettiComponent />
             <Title>Team</Title>
             <Container>
-            <MemberComponent img={img1} name="Weirdo" position="founder" />
+            <MemberComponent img={img1} name="Weirdo" position="Founder/Dev" />
+            <MemberComponent img={img2} name="Khuka" position="Artist" />
             </Container>
         </Section>
     )

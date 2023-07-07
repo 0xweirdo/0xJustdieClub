@@ -2,12 +2,12 @@ import React from 'react'
 import styled, { ThemeProvider } from 'styled-components'
 import Button from './Button'
 
-import img1 from '../assets/Nfts/bighead.svg'
-import img2 from '../assets/Nfts/Justdie-1.jpg'
-import img3 from '../assets/Nfts/Justdie-2.jpg'
-import img4 from '../assets/Nfts/Justdie-3.jpg'
-import img5 from '../assets/Nfts/Justdie-4.jpg'
-import img6 from '../assets/Nfts/Justdie-7.jpg'
+import img1 from '../assets/Nfts/Justdie_Party.svg'
+import img2 from '../assets/Nfts/Justdie1_Party.svg'
+import img3 from '../assets/Nfts/Justdie2_Party.svg'
+import img4 from '../assets/Nfts/Justdie3_Party.svg'
+import img5 from '../assets/Nfts/Justdie4_Party.svg'
+import img6 from '../assets/Nfts/Justdie5_Party.svg'
 import {dark} from '../styles/Themes';
 
 const Section = styled.section`
@@ -24,6 +24,11 @@ justify-content: center;
 align-items: center;
 
 overflow: hidden;
+
+@media (max-width: 48em) {
+  height: 15rem;
+  flex-direction: column;
+}
 `
 
 const ImgContainer = styled.div`
@@ -42,6 +47,13 @@ img{
   width: 15rem;
   height: auto;
 }
+
+@media (max-width: 48em){
+  img {
+  width: 8rem;
+  height: auto;
+}
+}
 `
 
 const Title = styled.h1`
@@ -54,7 +66,7 @@ width: 35%;
 @media (max-width: 64em){
   width: 100%;
   justify-content: left;
-  text-align: left;
+  text-align: center;
   font-size: ${(props) => props.theme.fontxxl};
 }
 

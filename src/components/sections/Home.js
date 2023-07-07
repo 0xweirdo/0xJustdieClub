@@ -22,7 +22,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 @media (max-width: 70em) {
-    width: 85;
+    width: 85%;
   }
 @media (max-width: 48em) {
     flex-direction: column-reverse;

@@ -1,12 +1,18 @@
 import React from 'react'
 import styled, { keyframes } from 'styled-components'
 
-import img1 from '../../assets/Nfts/Justdie.jpg'
-import img2 from '../../assets/Nfts/Justdie-1.jpg'
-import img3 from '../../assets/Nfts/Justdie-2.jpg'
-import img4 from '../../assets/Nfts/Justdie-3.jpg'
-import img5 from '../../assets/Nfts/Justdie-4.jpg'
-import img6 from '../../assets/Nfts/Justdie-5.jpg'
+import img1 from '../../assets/Nfts/Justdie_Party.svg'
+import img2 from '../../assets/Nfts/Justdie1_Party.svg'
+import img3 from '../../assets/Nfts/Justdie2_Party.svg'
+import img4 from '../../assets/Nfts/Justdie3_Party.svg'
+import img5 from '../../assets/Nfts/Justdie4_Party.svg'
+import img6 from '../../assets/Nfts/Justdie5_Party.svg' 
+import img7 from '../../assets/Nfts/Justdie6_Party.svg' 
+import img8 from '../../assets/Nfts/Justdie7_Party.svg' 
+import img9 from '../../assets/Nfts/Justdie8_Party.svg' 
+import img10 from '../../assets/Nfts/Justdie9_Party.svg' 
+import img11 from '../../assets/Nfts/Justdie10_Party.svg' 
+import img12 from '../../assets/Nfts/Justdie11_Party.svg' 
 
 const Section = styled.section`
 min-height: 100vh;
@@ -18,7 +24,9 @@ justify-content: center;
 align-items: center;
 position: relative;
 
-
+@media (max-width: 30em){
+    animation-duration: 15s;
+}
 `
 
 const move = keyframes`
@@ -51,8 +59,15 @@ padding: 10px;
 
 
 display: flex;
-    justify-content: center;
-    align-items: center
+justify-content: center;
+align-items: center
+
+@media (max-width: 48em){
+    width: 12rem;
+}
+@media (max-width: 30em){
+    width: 10rem;
+}
 
 img{
     width: 100%;
@@ -83,12 +98,12 @@ const Showcase = () => {
                 <NftItem img={img6} />
             </Row>
             <Row direction="reverse">
-                <NftItem img={img1} />
-                <NftItem img={img2} />
-                <NftItem img={img3} />
-                <NftItem img={img4} />
-                <NftItem img={img5} />
-                <NftItem img={img6} />
+                <NftItem img={img7} />
+                <NftItem img={img8} />
+                <NftItem img={img9} />
+                <NftItem img={img10} />
+                <NftItem img={img11} />
+                <NftItem img={img12} />
             </Row>
         </Section>
     )
