@@ -106,7 +106,14 @@ const Banner = () => {
       <Title>Join the <br /> Just'die club </Title>
       <ButtonContainer>
       <ThemeProvider theme={dark}>
-      <Button text="Join now" link="https://discord.gg/BFzfRykJ7m" />
+     
+
+            <a href="https://discord.gg/BFzfRykJ7m" target='_blank' 
+            rel="noopener noreferrer"
+            >
+                <Button text="Join Discord" />
+            </a>
+
       </ThemeProvider>
       </ButtonContainer>
     </Section>

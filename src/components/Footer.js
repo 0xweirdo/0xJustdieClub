@@ -107,7 +107,7 @@ const Footer = () => {
             >
                 <Instragram />
             </a>
-            <a href="http://twitter.com" target='_blank' 
+            <a href="http://twitter.com/justdieclub" target='_blank' 
             rel="noopener noreferrer"
             >
                 <Twitter />

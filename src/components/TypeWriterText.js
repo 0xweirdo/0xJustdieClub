@@ -76,7 +76,11 @@ const TypeWriterText = () => {
       </Title>
       <SubTitle>Something New?</SubTitle>
       <ButtonContainer>
-      <Button text="Explore" link="#about"  />
+      <a href="https://twitter.com/justdieclub" target='_blank' 
+            rel="noopener noreferrer"
+            >
+                <Button text="Explore" />
+            </a>
       </ButtonContainer>
       
       </>
