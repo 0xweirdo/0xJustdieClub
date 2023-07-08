@@ -141,6 +141,9 @@ align: flex-start;
 
 @media (max-width: 64em){
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 button{
     margin: 0 auto;
@@ -167,7 +170,15 @@ const About = () => {
                 </SubTextLight>
                 <ButtonContainer>
                 <ThemeProvider theme={dark}>
-                <Button text="JOIN OUR DISCORD" link="https://www.google.com/" />
+
+
+                <a href="https://discord.gg/BFzfRykJ7m" target='_blank' 
+            rel="noopener noreferrer"
+            >
+                <Button text="Join Discord" />
+            </a>
+
+
                 </ThemeProvider>
                 </ButtonContainer>
                  </Box>
