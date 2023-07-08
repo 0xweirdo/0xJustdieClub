@@ -43,11 +43,11 @@ align-items: center;
 flex-wrap: wrap;
 
 @media (max-width: 64em) {
-    width: 80%;
+    width: 100%;
     align-items: center;
 }
 @media (max-width: 48em) {
-    width: 90%;
+    width: 100%;
     justify-content: center;
     align-items: center;
 }
