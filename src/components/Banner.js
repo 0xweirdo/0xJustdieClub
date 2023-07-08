@@ -82,13 +82,14 @@ width: 35%;
 const ButtonContainer = styled.div`
 width: 35%;
 display: flex;
-justify-content: flex-end;
+justify-content: space-around;
 
 @media (max-width: 64em){
   width: 100%;
 
 button{
   margin: 0 auto;
+  
 }
 `
 

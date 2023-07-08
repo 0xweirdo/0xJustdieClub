@@ -21,11 +21,13 @@ import img7 from '../assets/Nfts/Justdie6_Party.svg'
 import img8 from '../assets/Nfts/Justdie7_Party.svg'
 import img9 from '../assets/Nfts/Justdie8_Party.svg'
 
+
+
 import Arrow from '../assets/Arrow.svg';
 
 const Container = styled.div`
-width: 20vw;
-height: 40vh;
+width: 50vw;
+height: 100%;
 
 @media (max-width: 70em){
   height: 50vh;
@@ -46,20 +48,23 @@ height: 40vh;
   width: 65vw;
 }
 
-.swiper{
+.swiper {
     width: 100%;
-    height: 100%;
-}
-
-.swiper-slide{
-    background-color: white;
-
-    border-radius: 20px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
 
 
 .swiper-button-next{
@@ -118,10 +123,10 @@ const Carousel = () => {
             delay:2000,
             disableOnInteraction:false,
         }}
-        effect={"coverflow"}
+        effect={'coverflow'}
         grabCursor={true}
         centeredSlides={true}
-        slidesPerView={"auto"}
+        slidesPerView={'auto'}
         coverflowEffect={{
           rotate: 50,
           stretch: 0,
@@ -129,14 +134,7 @@ const Carousel = () => {
           modifier: 1,
           slideShadows: true,
         }}
-        pagination={{
-            type:'fraction',
-        }}
-
-        scrollbar={{
-            draggable:true
-        }}
-        navigation={true}
+        pagination={true}
         modules={[EffectCoverflow, Pagination, Navigation, Autoplay]}
         className="mySwiper"
       >
@@ -167,6 +165,8 @@ const Carousel = () => {
         <SwiperSlide>
           <img src={img9} alt="Justdieclub" />
         </SwiperSlide>
+        
+        
         
       </Swiper>
          
