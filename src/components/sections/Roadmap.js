@@ -203,7 +203,7 @@ const Roadmap = () => {
                     
                     <RoadMapItem title="Mint to Earn" subtext="Justdie holders have the right to win lottery tickets. Every time there is a project Just'mint " />
                    
-                    <RoadMapItem title="Alpha WL/Airdrop Holder" subtext="this is usub text" />
+                    <RoadMapItem title="Alpha WL/Airdrop Holder" subtext="Holders will receive benefits such as Alpha Whitelist, Token Airdrop and more in the future." />
                 </Items>
                 <Items>
                 
@@ -211,7 +211,7 @@ const Roadmap = () => {
                 
                     <RoadMapItem title="NFT+LSD" subtext="Non-Fungible Token Liquid Stake Derivertive is a project that takes ETH and deposits it into a Validator node." />
                 
-                    <RoadMapItem title="Future Airdrop" subtext="Token and NFTs." />
+                    <RoadMapItem title="Future Airdrop" subtext="Holders will receive benefits Token and NFTs in the future." />
                 </Items>
                 
                 
