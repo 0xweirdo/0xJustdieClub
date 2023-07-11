@@ -12,7 +12,7 @@ import Team from './components/sections/Team';
 import Faq from './components/sections/Faq';
 import Footer from './components/Footer';
 import Scrolltotop from './components/Scrolltotop';
-import Icon from './components/Icon';
+
 
 
 
@@ -26,7 +26,7 @@ function App() {
         
 
     <GlobalStyles />
-      <Icon />
+      
       <ThemeProvider theme={light}>
       <Navigation/>
       <Home />
